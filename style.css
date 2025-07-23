@@ -1,0 +1,226 @@
+body {background-color: hsl(0, 0%, 98%);
+      display: flex;
+      height: 100vh; /* Full viewport height */
+      margin: 0; /* Remove default margin */
+      padding: 0; /* Remove default padding */
+      font-family: 'Poppins',sans-serif;
+      width: 100vw;
+      overflow-x: hidden;}
+
+.top-part {display: flex;
+           flex-direction: column;
+           width: 100vw;
+           align-items: center;
+           padding-left: 60px;}
+
+.top-part .reliable {padding-top: 60px;
+                     color: hsl(212, 6%, 44%);
+                     font-size: 25px;
+                     font-weight: 200;}
+
+.top-part .powered {color: hsl(234, 12%, 34%);
+                    font-size: 25px;
+                    font-weight: 600;}
+
+.top-part .our {color: hsl(234, 12%, 34%);
+                font-size: 12px;
+                font-weight: 500;
+                padding-top: 9px;}
+
+.top-part .points {color: hsl(234, 12%, 34%);
+                font-size: 12px;
+                font-weight: 500;}
+
+.bottom-part {display: flex;
+              flex-direction: row;}
+
+.first-container {background-color: hsl(0, 0%, 100%);
+                  width: 300px;
+                  height: 200px;
+                  margin-left: 260px;
+                  margin-top: 120px;
+                  border-radius: 5px;
+                  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+                  display: flex;
+                  flex-direction: column;}
+
+.first-container .line {height: 5px;
+                        background-color: hsl(180, 62%, 55%);
+                        width: 99%;
+                        border-radius: 5px;}
+
+.first-container .supervisor {padding-left: 30px;
+                              padding-top: 25px;
+                              color: hsl(234, 12%, 34%);
+                              font-weight: 600;}
+
+.first-container .monitors {padding-left: 30px;
+                            padding-top: 2px;
+                            color: hsl(234, 12%, 34%);
+                            font-weight: 400;
+                            font-size: 12px;}
+
+.first-container img {height: 50px;
+                      width:50px;
+                      padding-left: 230px;
+                      padding-top: 20px;}
+
+.second-container {display: flex;
+                   flex-direction: column;}
+
+.second-container-top {background-color: hsl(0, 0%, 100%);
+                       width: 300px;
+                       height: 200px;
+                       margin-left: 20px;
+                       margin-top: 50px;
+                       border-radius: 5px;
+                       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+                       display: flex;
+                       flex-direction: column;}
+
+.second-container-top .line {height: 5px;
+                             background-color: hsl(0, 78%, 62%);
+                             width: 99%;
+                             border-radius: 5px;}
+
+.second-container-top .team {padding-left: 30px;
+                             padding-top: 25px;
+                             color: hsl(234, 12%, 34%);
+                             font-weight: 600;}
+
+.second-container-top .scans {padding-left: 30px;
+                              padding-top: 2px;
+                              color: hsl(234, 12%, 34%);
+                              font-weight: 400;
+                              font-size: 12px;}
+
+.second-container-top img {height: 50px;
+                           width:50px;
+                           padding-left: 230px;
+                           padding-top: 20px;} 
+
+.second-container-bottom {background-color: hsl(0, 0%, 100%);
+                          width: 300px;
+                          height: 200px;
+                          margin-left: 20px;
+                          margin-top: 20px;
+                          margin-bottom: 70px;
+                          border-radius: 5px;
+                          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+                          display: flex;
+                          flex-direction: column;} 
+
+.second-container-bottom .line {height: 5px;
+                                background-color: hsl(34, 97%, 64%);
+                                width: 99%;
+                                border-radius: 5px;}
+
+.second-container-bottom .karma {padding-left: 30px;
+                                 padding-top: 25px;
+                                 color: hsl(234, 12%, 34%);
+                                 font-weight: 600;}
+
+.second-container-bottom .regularly {padding-left: 30px;
+                                     padding-top: 2px;
+                                     color: hsl(234, 12%, 34%);
+                                     font-weight: 400;
+                                     font-size: 12px;} 
+
+.second-container-bottom img {height: 50px;
+                              width:50px;
+                              padding-left: 230px;
+                              padding-top: 20px;} 
+
+.third-container {background-color: hsl(0, 0%, 100%);
+                  width: 300px;
+                  height: 200px;
+                  margin-left: 20px;
+                  margin-top: 120px;
+                  border-radius: 5px;
+                  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+                  display: flex;
+                  flex-direction: column;} 
+
+.third-container .line {height: 5px;
+                        background-color: hsl(212, 86%, 64%);
+                        width: 99%;
+                        border-radius: 5px;}
+
+.third-container .calculator {padding-left: 30px;
+                              padding-top: 25px;
+                              color: hsl(234, 12%, 34%);
+                              font-weight: 600;}
+
+.third-container .uses {padding-left: 30px;
+                        padding-top: 2px;
+                        color: hsl(234, 12%, 34%);
+                        font-weight: 400;
+                        font-size: 12px;} 
+
+.third-container img {height: 50px;
+                      width:50px;
+                      padding-left: 230px;
+                      padding-top: 20px;} 
+
+
+
+@media (max-width: 1024px) {
+  body {
+    flex-direction: column;
+    height: auto;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .top-part {
+    padding-left: 0;
+    width: 100vw;
+    align-items: center;
+  }
+
+  .top-part .reliable
+    {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+
+  .top-part .our,
+  .top-part .points {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .bottom-part {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    }
+
+  .first-container,
+  .second-container-top,
+  .second-container-bottom,
+  .third-container {
+    width: 60vw;
+    min-width: 0;
+    margin: 20px 0 0 0;
+    height: auto;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 25px;}
+
+  .first-container img,
+  .second-container-top img,
+  .second-container-bottom img,
+  .third-container img {
+    padding-left: 0;
+    align-self: flex-end;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+}
+
+
+
