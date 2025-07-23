@@ -23,7 +23,7 @@ This project is a responsive Four Card Feature Section built based on a Frontend
 ![Preview](image.png)
 
 ### Live Site Url
-https://echo-script0.github.io/Single-price-grid-component/
+https://echo-script0.github.io/Four-card-feature-section/
 
 ### Built with
 - HTML5 – For semantic structure
